@@ -1,0 +1,16 @@
+.banners {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.banners__item {
+  width: 100%;
+  line-height: 0;
+}
+
+.banners__item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

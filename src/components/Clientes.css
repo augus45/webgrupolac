@@ -1,0 +1,30 @@
+.clientes__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 32px 40px;
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.clientes__title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 4px;
+}
+
+.clientes__desc {
+  font-size: 0.95rem;
+  color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+  .clientes__row {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+  }
+}
