@@ -18,18 +18,10 @@
   gap: 16px;
 }
 
-.footer__logo-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
+.footer__logo-img {
   height: 48px;
-  background: var(--color-primary);
-  color: var(--color-accent);
-  border-radius: var(--radius-sm);
-  font-size: 1rem;
-  font-weight: 800;
-  letter-spacing: 1px;
+  width: auto;
+  display: block;
 }
 
 .footer__address {

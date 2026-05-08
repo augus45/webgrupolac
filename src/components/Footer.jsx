@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer__row">
           <div className="footer__left">
             <Link to="/" className="footer__logo">
-              <span className="footer__logo-icon">LAC</span>
+              <img src="/logo-lac.png" alt="Grupo LAC" className="footer__logo-img" />
             </Link>
             <div className="footer__address">
               <strong>Administración Central:</strong><br />

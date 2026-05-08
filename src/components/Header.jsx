@@ -49,11 +49,7 @@ export default function Header() {
       <div className="header__top">
         <div className="container header__top-inner">
           <Link to="/" className="header__logo">
-            <span className="header__logo-icon">LAC</span>
-            <span className="header__logo-text">
-              GRUPO LAC
-              <small className="header__logo-tagline">Organización. Tecnología. Valor.</small>
-            </span>
+            <img src="/logo-lac.png" alt="Grupo LAC" className="header__logo-img" />
           </Link>
 
           <form className="header__search" onSubmit={handleSearch}>
