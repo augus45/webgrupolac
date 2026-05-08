@@ -43,6 +43,11 @@ export default function Hero() {
         >
           <div className="hero__overlay" />
           <div className="container hero__content">
+            <div className="hero__tagline">
+              <span>Organización.</span>
+              <span>Tecnología.</span>
+              <span>Valor.</span>
+            </div>
             <h1 className="hero__title">{slide.title}</h1>
             <p className="hero__subtitle">{slide.subtitle}</p>
             <a
